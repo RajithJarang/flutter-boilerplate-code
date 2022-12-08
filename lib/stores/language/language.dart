@@ -1,5 +1,5 @@
-import 'package:cybernate_retail_mobile/data/repository.dart';
-import 'package:cybernate_retail_mobile/models/language.dart';
+import '../../data/repository.dart';
+import '../../models/language.dart';
 import 'package:mobx/mobx.dart';
 
 part 'language.g.dart';

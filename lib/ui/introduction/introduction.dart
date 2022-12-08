@@ -1,6 +1,6 @@
-import 'package:cybernate_retail_mobile/assets_db/assets_db.dart';
-import 'package:cybernate_retail_mobile/routes/routes.dart';
-import 'package:cybernate_retail_mobile/stores/introduction/introduction.dart';
+import '../../assets_db/assets_db.dart';
+import '../../routes/routes.dart';
+import '../../stores/introduction/introduction.dart';
 import 'package:flutter/material.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 import 'package:lottie/lottie.dart';

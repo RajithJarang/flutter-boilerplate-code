@@ -1,4 +1,4 @@
-import 'package:cybernate_retail_mobile/data/repository.dart';
+import '../../data/repository.dart';
 import 'package:mobx/mobx.dart';
 
 part 'profile.g.dart';

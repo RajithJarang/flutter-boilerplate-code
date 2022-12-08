@@ -1,5 +1,5 @@
-import 'package:cybernate_retail_mobile/data/database_encryption/encryption.dart';
-import 'package:cybernate_retail_mobile/data/localdb/constants/db_constants.dart';
+import '../../data/database_encryption/encryption.dart';
+import '../../data/localdb/constants/db_constants.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:sembast/sembast.dart';
 import 'package:sembast/sembast_io.dart';

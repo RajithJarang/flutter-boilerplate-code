@@ -1,15 +1,15 @@
 import 'dart:async';
-import 'package:cybernate_retail_mobile/data/repository.dart';
-import 'package:cybernate_retail_mobile/dependency_injection/components/services.dart';
-import 'package:cybernate_retail_mobile/global_theme/apptheme.dart';
-import 'package:cybernate_retail_mobile/routes/routes.dart';
-import 'package:cybernate_retail_mobile/stores/introduction/introduction.dart';
-import 'package:cybernate_retail_mobile/stores/language/language.dart';
-import 'package:cybernate_retail_mobile/stores/profile/profile.dart';
-import 'package:cybernate_retail_mobile/stores/theme/theme.dart';
-import 'package:cybernate_retail_mobile/ui/home/home.dart';
-import 'package:cybernate_retail_mobile/ui/introduction/introduction.dart';
-import 'package:cybernate_retail_mobile/ui/profile/profile.dart';
+import './data/repository.dart';
+import './dependency_injection/components/services.dart';
+import './global_theme/apptheme.dart';
+import './routes/routes.dart';
+import './stores/introduction/introduction.dart';
+import './stores/language/language.dart';
+import './stores/profile/profile.dart';
+import './stores/theme/theme.dart';
+import './ui/home/home.dart';
+import './ui/introduction/introduction.dart';
+import './ui/profile/profile.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
 import 'package:form_builder_validators/form_builder_validators.dart';
 import 'package:provider/provider.dart';
@@ -57,7 +57,7 @@ class MyApp extends StatelessWidget {
         builder: (context) {
           return MaterialApp(
             debugShowCheckedModeBanner: false,
-            title: 'cybernate-retail',
+            title: 'app',
             theme: _themeStore.darkMode
                 ? AppThemeData.darkThemeData
                 : AppThemeData.lightThemeData,

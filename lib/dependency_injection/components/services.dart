@@ -1,9 +1,9 @@
-import 'package:cybernate_retail_mobile/data/repository.dart';
-import 'package:cybernate_retail_mobile/data/shared_prefs/sharedpref_helper.dart';
-import 'package:cybernate_retail_mobile/dependency_injection/modules/localmodule.dart';
-import 'package:cybernate_retail_mobile/stores/introduction/introduction.dart';
-import 'package:cybernate_retail_mobile/stores/language/language.dart';
-import 'package:cybernate_retail_mobile/stores/theme/theme.dart';
+import '../../data/repository.dart';
+import '../../data/shared_prefs/sharedpref_helper.dart';
+import '../../dependency_injection/modules/localmodule.dart';
+import '../../stores/introduction/introduction.dart';
+import '../../stores/language/language.dart';
+import '../../stores/theme/theme.dart';
 import 'package:get_it/get_it.dart';
 import 'package:sembast/sembast.dart';
 import 'package:shared_preferences/shared_preferences.dart';

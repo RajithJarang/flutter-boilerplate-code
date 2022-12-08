@@ -1,4 +1,4 @@
-import 'package:cybernate_retail_mobile/data/shared_prefs/sharedpref_helper.dart';
+import '../../data/shared_prefs/sharedpref_helper.dart';
 
 class Repository {
   final SharedPreferenceHelper _sharedPreferenceHelper;
