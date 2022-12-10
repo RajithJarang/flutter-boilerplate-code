@@ -1,4 +1,4 @@
-# cybernate_retail_mobile
+# Bolierplate code for flutter
 
 A new Flutter project.
 
